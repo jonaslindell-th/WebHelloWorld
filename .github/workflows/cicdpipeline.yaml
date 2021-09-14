@@ -19,5 +19,5 @@ jobs:
           push: true
           file: ./Dockerfile
           tags: |
-            ghcr.io/jonaslindell-th/HelloWorld:latest
-            ghcr.io/jonaslindell-th/HelloWorld:${{ github.run_number }}
+            ghcr.io/jonaslindell-th/helloworld:latest
+            ghcr.io/jonaslindell-th/helloworld:${{ github.run_number }}
